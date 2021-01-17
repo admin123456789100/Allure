@@ -1,0 +1,8 @@
+运行程序第一种方法：
+先输入：pytest
+再执行：allure generate report/ -o report/html --clean
+然后执行：allure open report\html
+
+运行程序第二种方法：
+先输入：pytest
+再执行：allure generate report/ -o report/html --clean allure open report\html
